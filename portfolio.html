@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>POETSEC</title>
+    <link rel="shortcut icon" href="images/thumbnail.png" />
+    <link rel="stylesheet" href="main.css">
+    <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css'>
+
+</head>
+<body style="font-family: hack">
+    <!-- Header -->
+    <section id="header">
+
+        <!-- Logo -->
+        <h1><pre style="font-family: Fixed, Lucida Console, Andale Mono, Courier New, Courier, monospace; font-size: 10pt; line-height: 110%; letter-spacing: 0pt; margin: 0px; overflow: visible; background-color: #000000; color: #FD00FF;">
+                              __                
+            ____  ____  ___  / /_________  _____
+           / __ \/ __ \/ _ \/ __/ ___/ _ \/ ___/
+          / /_/ / /_/ /  __/ /_(__  )  __/ /__  
+          / .___/\____/\___/\__/____/\___/\___/  
+        /_/                                     
+            </pre></h1>
+        <!-- Nav -->
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">$whoami</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+    <!-- Main -->
+    <section id="main">
+        <div class="container">
+
+            <!-- Content -->
+                <article class="box post">
+                    
+                    <header>
+                        <h2 style="text-align: center; color:#FD00FF">Projects</h2>
+                    </header>
+                    <p>
+                        Here are a few of the projects I've been working on. I also contribute 
+                        to open source wherever I can and write about hacking, security, and Linux on my <a href="www.poetsec.sh">blog</a>.
+                    </p>
+                    <br>
+                    <h3 style="color: #FD00FF;text-align: center;">MAC Address Changer</h3>
+                    <p>
+                        This command-line MAC address spoofer allows the user to mask their MAC address from the command-line. It asks the 
+                        user to specify an interface, choose a new MAC address, and then masks their real MAC addresss with the new, 
+                        specified one. This was written as part of a course on ethical hacking and Python concepts by Zaid Sabih. 
+						<a href="https://github.com/poetsec/mac-address-changer/blob/master/mac-changer.py">See code.</a>
+                    </p>
+                    <br>
+                    <h3 style="color: #FD00FF;text-align: center;">Network Scanners</h3>
+                    <p>
+                        I created a set of network scanners in Python using the Scapy module. One is a simple scanner that uses 
+                        <code style="color: #FF0677;">scapy.arping</code> to perform the network scan, and the other is a more customized scanner that has a 
+                        manual scan function written out step by step, uses dictionaries to organize the information it collects, and 
+                        displays that information to the user in an easy to read table. These were both created as part of a course on 
+                        ethical hacking and Python concepts by Zaid Sabih. <a href="https://github.com/poetsec/network-scanners">See code.</a>
+                    </p>
+                    <p style="text-align: center;">
+                        <img src="/images/custom-network-scanner.png">
+                    </p>
+                        <br>
+                        <h3 style="color: #FD00FF;text-align: center;">#LinuxHelp Twitter Bot</h3>
+                        <p>
+                            I created a Twitter bot in Python using the <code style="color: #FF0677;">tweepy</code> module. The bot retweets any tweets that contain the hashtags
+                            #LinuxHelp or #LinuxQuestion. The idea of the bot is that Twitter users with Linux related questions can use the hashtags for their tweet to get more visibility,
+                            and Twitter users who are interested in answering Linux related questions can follow the bot to have questions retweeted to their feed.
+                            <a href="linux-help-bot.html">Learn more.</a>
+                        </p>
+                        <br>
+                    <h3 style="color: #FD00FF;text-align: center;">File Encypter/Decrypter</h3>
+                    <p>
+                        This is a bash shell script for encrypting and decrypting files. When run, it gives the user the option to either 
+                        encrypt or decrypt a file that they select using GPG. 
+						<a href="https://github.com/poetsec/encrypter-decrypter/blob/main/encrypt.sh">See code.</a>
+                    </p>
+                    <p style="text-align: center;">
+                        <img src="/images/encrypter-decrypter.png">
+                    </p>
+                    <br>
+                    <h3 style="text-align: center;color: #FD00FF;">Random Password Generator</h3>
+                    <p>
+                        This is a bash shell script for generating random passwords. It prompts the user for the number of characters they 
+                        would like their new password to be, and then generates five random passwords.
+						<a href="https://github.com/poetsec/password-generator/blob/main/password-generator.sh">See code.</a>
+                    </p>
+                    <p style="text-align: center;">
+                        <img src="/images/password-generator.png">
+                    </p>
+                    <br>
+                    <h3 style="text-align: center;color: #FD00FF;">Cash Drawer Calculator</h3>
+                    <p>
+                        This is a work-in-progress program to help cashiers balance tills. It allows the user to enter the number of each 
+                        cash denomination they have, and then does the math to come up with the total dollar amount. It's based on a 
+                        Microsoft Excel sheet I've used in the restaurant industry, and I plan on making improvements in the future such 
+                        as adding options for foreign currencies and a GUI. 
+                        <a href="https://github.com/poetsec/cash-drawer-calculator/blob/main/usd-calculator.py">See code.</a>                
+                    </p>
+                    <br>
+                    <h3 style="color: #FD00FF;text-align: center;">Personal Websites</h3>
+                    <p> I've built a few portfolio websites for myself, and this is the current one. I also have a website called <a href="https://github.com/poetsec/quechua-library">The Quechua Library</a>
+                         that is a directory of Quechua language resources.
+                        <a href="https://github.com/poetsec/poetsec.github.io">See code.</a></p>
+                </article>
+
+        </div>
+    </section>
+</body>
+</html>
